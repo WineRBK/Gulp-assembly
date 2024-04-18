@@ -1,0 +1,44 @@
+
+@import 'base/*.scss';
+@import 'global/*.scss';
+@import '../components/**/*.scss';
+@import '**/_*.scss';
+
+@font-face {
+  font-family: 'Canela';
+  src: url('../fonts/Canela-Regular.woff2') format('woff2');
+  font-weight: 400; 
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('../fonts/Canela-Light.woff2') format('woff2');
+  font-weight: 300; 
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('../fonts/Canela-Bold.woff2') format('woff2');
+  font-weight: 700; 
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('../fonts/Canela-Medium.woff2') format('woff2');
+  font-weight: 500; 
+}
+
+:root {
+--primary-color: #D6EF0E;
+--primary-hover-color: #bbd111;
+--secondary-black-color: #1E1E1E;
+--secondary-white-color: #FFFFFD;
+--background-color: #090f1d;
+--background-item-color: #131E3A;
+}
+
+
+  
+.container {
+  @include container('1920px')
+}
